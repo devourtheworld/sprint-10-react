@@ -1,0 +1,32 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 5px 0;
+    transition: 0.7s;
+}
+
+.navigation input[type="radio"]+label {
+    color: #ffffff4b;
+    background-image: radial-gradient(transparent, transparent, transparent, transparent);
+    transition: all 0.7s;
+}
+
+.navigation input[type="radio"] {
+    display: none;
+}
+
+.navigation input[type="radio"]:checked+label {
+    color: #ff0101;
+    background-image: radial-gradient(#ff010144, #ff010125, #ff010104, transparent);
+    transition: all 0.7s;
+}
+
+.navigation input[type="radio"]:hover+label {
+    color: #ff0101;
+    cursor: pointer;
+    transition: 0.7s ;
+}

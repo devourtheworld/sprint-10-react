@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@font-face {
+    font-family: 'StarJedi';
+    src: url('/src/fonts/Starjedi.ttf'); 
+    font-style: normal;
+    font-weight: 100;
+  }
+
+
+body{
+  background-image: url(/src/img/stars.gif);
+  max-width: 300px;
+  margin: auto;
+  color: #ffffff;
+  font-family: 'Roboto Mono', monospace;
+}
+
+img{
+    max-width: 300px;
+}
+
+#swTitle{
+    text-align: center;
+    font-family: 'StarJedi', monospace;
+    color: #ffc400;
+    user-select: none;
+    margin: 0 0 5px 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+li{
+    list-style: none;
+}
+
+#name{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #ffc400;
+    text-transform: capitalize;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.info{
+    text-transform: capitalize;
+}
+
+.info:nth-child(2){
+    color: #fcf2d2;
+}
+
+.info:nth-child(3){
+    color: #fadf87;
+}
+
+.info:nth-child(4){
+    color: #fccf3d;
+}
+
+::selection {
+    color: #ffffff;
+    background: #ffc4008a;
+}
+
+::-moz-selection {
+    color: #ffffff;
+    background: #ffc4008a;
+  }

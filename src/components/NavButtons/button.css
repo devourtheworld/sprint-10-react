@@ -1,0 +1,34 @@
+button{
+    color: #ffffff4b;
+    width: 50%;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 3px;
+    border-bottom: 3px solid  #ffffff4b;
+    border-top: 3px solid #ffffff4b;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    background-color: transparent;
+    border-radius: 0px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+
+button:hover{
+    color: #ff0101;
+    transition: all 0.7s;
+    border-bottom: 3px solid #ff0101;
+    border-top: 3px solid #ff0101;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+  }
+  
+button:active{
+    border-bottom: 3px solid #ffffff;
+    border-top: 3px solid #ffffff;
+    color: #ffffff;
+    transition: 0.5s;
+  }
